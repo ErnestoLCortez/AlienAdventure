@@ -6,7 +6,9 @@
 //  Copyright © 2015 Udacity. All rights reserved.
 //
 
+
 extension UDGameSM {
+
     
     func addBadge(hero: Hero, alien: Alien) {
         switch(alien.colorVariant) {
@@ -16,4 +18,6 @@ extension UDGameSM {
             hero.addBadge(SpecialBadge(requestType: alien.currentRequestType))
         }
     }
+    
+
 }
